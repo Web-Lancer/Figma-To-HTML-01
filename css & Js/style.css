@@ -21,6 +21,8 @@ body {
 
 }
 
+.nav-link:hover{color: #79c7d2ad;}
+
 .signUp {
      color: #9A9EA7;
 }
@@ -32,4 +34,12 @@ body {
     height: 25px;
     padding: 5px 8px;
     margin-right: 5px;
+}
+
+.section-1{
+    background-image: url("../img/Rectangle.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 560px;
 }
