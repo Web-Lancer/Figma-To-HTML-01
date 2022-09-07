@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
 
-    {
+* {
     margin: 0;
     padding: 0;
 }
@@ -21,14 +21,16 @@ body {
 
 }
 
-.nav-link:hover{color: #79c7d2ad;}
+.nav-link:hover {
+    color: #79c7d2ad;
+}
 
 .signUp {
-     color: #9A9EA7;
+    color: #9A9EA7;
 }
 
 .signUp img {
-    background:#f5f6f7;
+    background: #f5f6f7;
     border-radius: 8px;
     width: 30px;
     height: 25px;
@@ -36,10 +38,41 @@ body {
     margin-right: 5px;
 }
 
-.section-1{
+.section-1 {
     background-image: url("../img/Rectangle.png");
-    background-repeat: no-repeat;
-    background-size: cover;
     width: 100%;
     height: 560px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+.section-1 h1 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 74px;
+    text-align: center;
+    letter-spacing: -0.304762px;
+    color: #FFFFFF;
+    padding-top: 149px;
+}
+
+.section-1P {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.TopFooterSection {
+    background: #FFFFFF;
+    box-shadow: 0px 3px 4px #999ba826;
+    border-radius: 8px;
+    max-width: 945px;
+    height: 80px;
+    position: absolute;
+    margin: 0px auto;
+    bottom: -40px;
+    left: 50%;
+} 
