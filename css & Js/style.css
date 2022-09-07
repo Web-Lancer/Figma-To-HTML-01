@@ -99,20 +99,48 @@ body {
     letter-spacing: -0.1px;
     color: #0D0A19;
     border: none;
-margin-top: -10px;
+    margin-top: -10px;
 }
 
-.without-P{
+.without-P {
     margin-top: 30px;
 }
 
-.HeaderButton{
+.HeaderButton {
     background: #7963F0;
-border-radius: 10px;
-color: #fff;
-margin-top: -10px;
-padding: 8px 18px;
-font-weight: 600;
+    border-radius: 10px;
+    color: #fff;
+    margin-top: -10px;
+    padding: 8px 18px;
+    font-weight: 600;
 }
 
-.HeaderButton img {margin-top: -3px;}
+.HeaderButton img {
+    margin-top: -3px;
+}
+
+.BorderRight {border-right: 2px solid red;}
+
+
+
+
+@media all and (max-width: 767px) {
+    .section-1 h1 {
+        font-size: 38px;
+        line-height: 45px;
+    }
+
+    .section-1 p {
+        font-size: 16px;
+    }
+
+    .TopFooterSection {
+        height: 70px;
+    }
+
+    .HeaderButton {
+        width: 95%;
+        padding: 17px 0px;
+        margin-left: auto;
+    }
+}
