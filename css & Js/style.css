@@ -88,7 +88,6 @@ body {
     letter-spacing: -0.1px;
     color: #9A9EA7;
     margin-left: 15px;
-    margin-top: 10px;
 }
 
 .form-select {
@@ -119,9 +118,13 @@ body {
     margin-top: -3px;
 }
 
-.BorderRight {border-right: 2px solid red;}
+.BorderRight {
+  border-right: 1px solid #EDE8E9;
+  height: 40px;
+  margin-top: 10px;
+}
 
-
+.someMargin {margin-top: 20px;}
 
 
 @media all and (max-width: 767px) {
