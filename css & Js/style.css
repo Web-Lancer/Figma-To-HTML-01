@@ -9,6 +9,8 @@
      font-family: 'inter' !important;
  }
 
+ /*=================== Navbar Started from here ================= */
+
  .nav-link {
      font-family: 'Inter';
      font-style: normal;
@@ -33,15 +35,19 @@
      color: #7963F0;
  }
 
- .signUp img {
+ .signUp i {
      background: #f5f6f7;
      border-radius: 8px;
      width: 30px;
      height: 25px;
      padding: 5px 8px;
      margin-right: 5px;
+     font-size: 18px;
  }
 
+ /*=================== Navbar Ended from here ================= */
+
+ /*================= Section-1 Start From Here ===================== */
  .section-1 {
      background-image: url("../img/Rectangle.png");
      width: 100%;
@@ -121,14 +127,7 @@
      letter-spacing: -0.1px;
  }
 
- .HeaderButton img {
-     margin-top: -3px;
-
-    }
-
- .HeaderButton img:hover {
-     color: #0D0A19;
- }
+ .HeaderButton i {margin-right: 3px;}
 
  .BorderRight {
      border-right: 1px solid #EDE8E9;
@@ -161,52 +160,9 @@
          margin-left: auto;
      }
 
+     /*================= Section-1 Ended From Here ===================== */
+
+     /*================= Section-2 Start From Here ===================== */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-     @font-face {
-        font-family: 'icomoon';
-        src:  url('fonts/icomoon.eot?2slaz0');
-        src:  url('fonts/icomoon.eot?2slaz0#iefix') format('embedded-opentype'),
-          url('fonts/icomoon.ttf?2slaz0') format('truetype'),
-          url('fonts/icomoon.woff?2slaz0') format('woff'),
-          url('fonts/icomoon.svg?2slaz0#icomoon') format('svg');
-        font-weight: normal;
-        font-style: normal;
-        font-display: block;
-      }
-      
-      [class^="icon-"], [class*=" icon-"] {
-        /* use !important to prevent issues with browser extensions that change fonts */
-        font-family: 'icomoon' !important;
-        speak: never;
-        font-style: normal;
-        font-weight: normal;
-        font-variant: normal;
-        text-transform: none;
-        line-height: 1;
-      
-        /* Better Font Rendering =========== */
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-      }
-      
-      .icon-magnifying-glass-solid:before {
-        content: "\e900";
-      }
-     
+     /*================= Section-2 Ended Here ===================== */
