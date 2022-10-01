@@ -187,9 +187,27 @@
  }
 
  /*================= Section-3 Ended Here ===================== */
+ .button-1 {
+     background: #6751e33a;
+     color: #7963f0 !important;
+     border-radius: 8px !important;
+     font-weight: 500;
+     font-size: 14px;
+     text-align: center;
+ }
 
+ .button-2 {
+     background: #f5f6f7;
+     color: #7963f0 !important;
+     border-radius: 8px !important;
+     font-weight: 500;
+     font-size: 14px;
+     text-align: center;
+ }
 
-
+ .card {
+     border: none;
+ }
 
  /* =================== Media Section Start Here ==========================*/
  @media all and (max-width: 767px) {
