@@ -210,49 +210,103 @@
      margin-top: 100px;
      margin-bottom: 100px;
  }
-
- .FindCarHeader {
-     width: 98%;
-     height: 68px;
-     padding: 30px
- }
-
- .FindCar {
-     font-weight: 700;
-     font-size: 28px;
-     line-height: 36px;
-     letter-spacing: -0.1px;
-     color: #0D0A19;
- }
-
- .section-4 .ArrowArea {
-     font-weight: 700;
-     font-size: 16px;
-     line-height: 24px;
-     text-align: right;
-     color: #9A9EA7;
- }
-
-header span  {
-     font-size: 25px;
-     font-weight: 900;
-     margin: 0px 5px;
-      }
-
-header .left {
-
-    width: 30px;
-    height: 30px;
-    background: #000;
-    margin-right: 5px;
-}
-header .right {
-
-    width: 30px;
-    height: 30px;
-    background: #000;
+ .FindcarHeader {
+    width: 98%;
+    height: 60px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 70px;
 }
 
+.section4{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.findCar {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 36px;
+letter-spacing: -0.1px;
+color: #0D0A19;
+}
+
+.ArrowArea{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+text-align: right;
+color: #9A9EA7;
+
+}
+
+header p span {
+    margin:0px 5px;
+    width: 30px;
+    height: 30px;
+
+} 
+.ArrowArea {
+    margin-top: 15px;
+}
+.ArrowArea img {
+background: #F5F6F7;
+border-radius: 10px;
+padding: 10px !important;
+
+}
+.Sedan {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+color: #0D0A19;
+
+}
+
+
+
+.ProBTN {
+    font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700 !important;
+	font-size: 12px !important;
+	line-height: 18px !important;
+	text-align: center !important;
+	background: linear-gradient(0deg, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), #7963f0 !important;
+	border-radius: 8px !important;
+	color: #7963f0 !important;
+}
+
+.ProBTN1 {
+    font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700 !important;
+	font-size: 12px !important;
+	line-height: 18px !important;
+	text-align: center !important;
+    background: #F5F6F7;
+    border-radius: 8px;
+    color: #9A9EA7;
+}
+.product {
+	min-width: 24%;
+	margin: 0 20px 50px 0px;
+	position: relative;
+	left: 0;
+	transition: 0.5s;
+}
+
+.product img {width: 250px;
+    height: 150px;}
  /*================= Section-4 Ended Here ===================== */
 
 
