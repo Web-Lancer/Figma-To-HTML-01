@@ -206,10 +206,6 @@
  /*================= Section-3 Ended Here ===================== */
 
  /*================= Section-4 Stated Here ===================== */
- .section-4 {
-     margin-top: 100px;
-     margin-bottom: 100px;
- }
  .FindcarHeader {
     width: 98%;
     height: 60px;
@@ -221,7 +217,7 @@
     margin-bottom: 70px;
 }
 
-.section4{
+.section-4{
     margin-top: 100px;
     margin-bottom: 100px;
 }
