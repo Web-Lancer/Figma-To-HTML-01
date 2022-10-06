@@ -207,102 +207,101 @@
 
  /*================= Section-4 Stated Here ===================== */
  .FindcarHeader {
-    width: 98%;
-    height: 60px;
-    margin: 0px auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    margin-bottom: 70px;
-}
+     width: 98%;
+     height: 60px;
+     margin: 0px auto;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 20px;
+     margin-bottom: 70px;
+ }
 
-.section-4{
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
+ .section-4 {
+     margin-top: 100px;
+     margin-bottom: 100px;
+ }
 
-.findCar {
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 28px;
-line-height: 36px;
-letter-spacing: -0.1px;
-color: #0D0A19;
-}
+ .findCar {
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 28px;
+     line-height: 36px;
+     letter-spacing: -0.1px;
+     color: #0D0A19;
+ }
 
-.ArrowArea{
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 24px;
-text-align: right;
-color: #9A9EA7;
+ .ArrowArea {
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 24px;
+     text-align: right;
+     color: #9A9EA7;
 
-}
+ }
 
-header p span {
-    margin:0px 5px;
-    width: 30px;
-    height: 30px;
+ header p span {
+     margin: 0px 5px;
+     width: 30px;
+     height: 30px;
 
-} 
-.ArrowArea {
-    margin-top: 15px;
-}
-.ArrowArea img {
-background: #F5F6F7;
-border-radius: 10px;
-padding: 10px !important;
+ }
 
-}
-.Sedan {
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 24px;
-color: #0D0A19;
+ .ArrowArea {
+     margin-top: 15px;
+ }
 
-}
+ .ArrowArea img {
+     background: #F5F6F7;
+     border-radius: 10px;
+     padding: 10px !important;
 
+ }
 
+ .Sedan {
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 24px;
+     color: #0D0A19;
 
-.ProBTN {
-    font-family: 'Inter';
-	font-style: normal;
-	font-weight: 700 !important;
-	font-size: 12px !important;
-	line-height: 18px !important;
-	text-align: center !important;
-	background: linear-gradient(0deg, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), #7963f0 !important;
-	border-radius: 8px !important;
-	color: #7963f0 !important;
-}
+ }
 
-.ProBTN1 {
-    font-family: 'Inter';
-	font-style: normal;
-	font-weight: 700 !important;
-	font-size: 12px !important;
-	line-height: 18px !important;
-	text-align: center !important;
-    background: #F5F6F7;
-    border-radius: 8px;
-    color: #9A9EA7;
-}
-.product {
-	min-width: 24%;
-	margin: 0 20px 50px 0px;
-	position: relative;
-	left: 0;
-	transition: 0.5s;
-}
+ .ProBTN {
+     font-weight: 700 !important;
+     font-size: 12px !important;
+     line-height: 18px !important;
+     text-align: center !important;
+     background: linear-gradient(0deg, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), #7963f0 !important;
+     border-radius: 8px !important;
+     color: #7963f0 !important;
+ }
 
-.product img {width: 250px;
-    height: 150px;}
+ .ProBTN1 {
+     font-weight: 700 !important;
+     font-size: 12px !important;
+     line-height: 18px !important;
+     text-align: center !important;
+     background: #F5F6F7;
+     border-radius: 8px;
+     color: #9A9EA7;
+ }
+
+ .product {
+     min-width: 24%;
+     margin: 0 20px 50px 0px;
+     position: relative;
+     left: 0;
+     transition: 0.5s;
+ }
+
+ .product img {
+     width: 250px;
+     height: 150px;
+ }
+
  /*================= Section-4 Ended Here ===================== */
 
 
@@ -355,5 +354,9 @@ color: #0D0A19;
      .section-2 img {
          margin-top: 20px;
      }
+
+     .product {min-width: 49%;
+    margin-right: 10px;
+    }
 
      /* =================== Media Section Ended Here ==========================*/
