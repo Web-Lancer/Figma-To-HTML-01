@@ -266,7 +266,6 @@
      font-size: 16px;
      line-height: 24px;
      color: #0D0A19;
-
  }
 
  .ProBTN {
@@ -303,6 +302,69 @@
  }
 
  /*================= Section-4 Ended Here ===================== */
+
+ /*================= Find Section Start Here ===================== */
+ .btn-find {
+     font-weight: 700;
+     font-size: 14px;
+     line-height: 21px;
+     text-align: center;
+     letter-spacing: -0.1px;
+     color: #9A9EA7;
+     border: none;
+ }
+
+ .active {
+     background: #FFFFFF;
+     border: 1px solid #EEEEEE;
+     padding-left: 25px;
+     padding-right: 25px;
+     border-radius: 8px;
+ }
+
+ .find-nav h3 {
+     font-weight: 700;
+     font-size: 28px;
+     line-height: 36px;
+     letter-spacing: -0.1px;
+     color: #0D0A19;
+ }
+
+ .popularP {
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     letter-spacing: -0.1px;
+     color: #9A9EA7;
+     margin-bottom: 40px;
+ }
+
+ .findItem img {
+     width: 40px;
+     height: 40px;
+ }
+
+ .findDes {margin-left: 15px;}
+
+ .findDes .Subaru {
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 27px;
+     color: #0D0A19;
+ }
+
+ .num {
+     font-weight: 400;
+     font-size: 14px; 
+     line-height: 21px;
+     letter-spacing: -0.1px;
+     color: #9A9EA7;
+     margin-top: -17px;
+ }
+
+ .findItem {margin-bottom: 40px;}
+
+ /*================= Find Section Ended Here ===================== */
 
 
 
@@ -355,8 +417,9 @@
          margin-top: 20px;
      }
 
-     .product {min-width: 49%;
-    margin-right: 10px;
-    }
+     .product {
+         min-width: 49%;
+         margin-right: 10px;
+     }
 
      /* =================== Media Section Ended Here ==========================*/
