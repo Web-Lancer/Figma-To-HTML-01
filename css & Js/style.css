@@ -333,18 +333,20 @@
  .popularP {
      font-weight: 400;
      font-size: 14px;
-     line-height: 21px;
-     letter-spacing: -0.1px;
      color: #9A9EA7;
-     margin-bottom: 40px;
+     margin-bottom: 90px;
  }
+
 
  .findItem img {
      width: 40px;
      height: 40px;
  }
 
- .findDes {margin-left: 15px;}
+ .findDes {
+     margin-left: 15px;
+     margin-bottom: 44px;
+ }
 
  .findDes .Subaru {
      font-weight: 700;
@@ -355,41 +357,55 @@
 
  .num {
      font-weight: 400;
-     font-size: 14px; 
+     font-size: 14px;
      line-height: 21px;
      letter-spacing: -0.1px;
      color: #9A9EA7;
      margin-top: -17px;
  }
 
- .findItem {margin-bottom: 40px;}
+ .findItem {
+     margin-bottom: 40px;
+ }
+
+ .marginArrowIcon {
+     margin-left: 145px;
+ }
+
+ .findDes-1 {
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .findDes-1 .Subaru {
+     font-weight: 600;
+     font-size: 16px;
+     line-height: 35px;
+     color: #0D0A19;
+ }
+
+ .findDes-1 .num-1 {
+     font-weight: 300;
+     font-size: 14px;
+     line-height: 35px;
+     text-align: right;
+     color: #0D0A19;
+ }
+
+ .popularP-1 {
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     letter-spacing: -0.1px;
+     color: #9A9EA7;
+     margin-bottom: 20px;
+ }
+
+ .col-lg-3 {
+     margin-top: 40px;
+ }
 
  /*================= Find Section Ended Here ===================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
