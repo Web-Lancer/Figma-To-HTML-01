@@ -412,7 +412,7 @@
 
  footer {
      background: #F5F6F7;
-padding: 40px;
+     padding: 40px;
  }
 
  .bold-P {
@@ -431,6 +431,33 @@ padding: 40px;
      color: #9A9EA7;
  }
 
+ .footerDown {
+     padding: 30px;
+ }
+
+ .footerDown p {
+     margin-right: 15px;
+ }
+
+ .PnT {
+     font-weight: 700;
+     font-size: 14px;
+     color: #0D0A19;
+ }
+
+ .copyRight {
+     font-weight: 400;
+     font-size: 14px;
+     color: #9A9EA7;
+ }
+
+ .CnC {
+     font-weight: 700;
+     font-size: 14px;
+     color: #9A9EA7;
+ }
+
+ .footerRight {margin-right: 60px;}
  /*================= Footer Section Ended Here ===================== */
 
 
