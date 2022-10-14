@@ -403,9 +403,36 @@
 
  .col-lg-3 {
      margin-top: 40px;
+     margin-bottom: 100px;
  }
 
  /*================= Find Section Ended Here ===================== */
+
+ /*================= Footer Section Start Here ===================== */
+
+ footer {
+     background: #F5F6F7;
+padding: 40px;
+ }
+
+ .bold-P {
+     font-weight: 700 !important;
+     font-size: 14px;
+     line-height: 21px;
+     letter-spacing: -0.1px;
+     color: #0D0A19 !important;
+ }
+
+ .footerSection p {
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 33px;
+     letter-spacing: -0.1px;
+     color: #9A9EA7;
+ }
+
+ /*================= Footer Section Ended Here ===================== */
+
 
 
 
